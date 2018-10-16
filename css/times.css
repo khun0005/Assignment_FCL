@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /*font-family: font stack required for body text */
+}
+h1, h2, h3, h4{
+    /*font-family: font stack required for headings */
+    font-family: 'Roboto', "Times new roman", serif;
+}
+p{
+  text-align: justify;
+    color: hsl(0, 1%, 42%);
+    
+}
+.container{
+max-width: 1500px;
+        
+    
+}
+.subnav{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(202, 35%, 48%);
+    text-align: right;
+    justify-content:flex-end; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    
+    
+   
+    
+}
+.subnav a{
+font-family: 'Roboto', "Times new roman", sans-serif;
+background:hsl(202, 17%, 65%);
+    display: block;
+    padding: 0.6em;
+    margin: 0.6em;
+    color: hsl(346, 96%, 99%);
+    font-size: 1em;
+    
+    
+    
+    
+}
+.mainnav{
+    display: flex;
+    background-color: hsl(202, 17%, 65%);
+    justify-content:space-around;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    left:0;
+    
+    
+    
+   
+    
+    
+}
+.mainnav a{
+    font-family: 'Roboto', "Times new roman", sans-serif;
+    padding: 0.6em;
+    color: hsl(346, 96%, 99%);
+    font-size: 1em;
+    
+}
+.masthead{
+ line-height: 0.6em;
+    padding: 0.6em;
+    margin: 0.6em;
+
+    
+}
+.times-logo{
+
+    
+}
+.masthead h1{
+    color:hsl(202, 35%, 48%);
+    margin: 0.6em;
+    padding: 0.6em;
+}
+.content{
+padding: 0.6em;
+    margin: 0.6em;
+    
+   
+}
+.content .story{
+    
+}
+.story.lead-story{
+
+    font-weight: bold;
+    
+    
+}
+h1.story-title{
+    font-family: 'Roboto', "Times New Roman", serif;
+    padding: 0.6em;
+    margin: 0.6em;
+    color: hsl(0, 4%, 27%);
+}
+.story img{
+    display: block;
+   
+    
+}
+.story p{
+    font-family: 'Roboto', "Times new roman", sans-serif;
+    font-size: 1em;
+   
+    
+    
+}
+.story blockquote{
+    quotes: "\201E" "\201D";
+    font-family: sans-serif;
+    padding: 0.6em;
+    margin: 0.6em;
+    color: hsl(0, 1%, 42%);
+}
+.story blockquote::before{
+
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+    
+ 
+}
+p.byline span.author{
+   
+
+
+    
+}
+p.byline span.pub{
+    
+}
+.foot{
+    margin-left: 0.6em;
+}
+.foot p{
+   
+}
